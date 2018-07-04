@@ -1,0 +1,188 @@
+.navbar{
+	height: 50px;
+	background-color: #F5F5F5;
+	border-top: 1px solid #0F51B2;
+	margin-top: 10px;
+}
+.navbar li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 15px;
+}
+.navbar li a{
+	color: #0F51B2;
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	height: 100%;
+}
+.navbar li.active{
+	background-color: #0F51B2;
+}
+.navbar li.active a{
+	color: #fff;
+}
+.banner-center{
+	height: 90px;
+	margin-top: 15px;
+}
+.banner-center img{
+	height: 100%;
+	width: 100%;
+}
+.sort-list{
+	margin-top: 15px;
+}
+.sort-list-left{
+	float: left;
+	width: 810px;
+}
+.sort-list-left h3{
+	width: 100%;
+    background-color: #0F51B2;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.sort-list-left .sort-list-top{
+	height: 40px;
+	line-height: 40px;
+	background: url(../images/hot/sort-top-bg.png) repeat;
+	padding: 0 40px;
+}
+.sort-list-top li{
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.sort-list-top li a{
+	font-size: 13px;
+	font-weight: bold;
+}
+.sort-list-top li.active a{
+	color: #0F51B2;
+	text-decoration: underline;
+}
+.sort-list-ul{
+	padding-left: 25px;
+	border: 1px solid #eee;
+}
+
+.sort-list-ul> li{
+	width: 260px;
+	float: left;
+	height: 320px;
+	padding: 20px 20px 20px 0;
+	border-bottom: 1px dashed  #eee;
+	overflow: hidden;
+}
+.sort-list-ul> li:nth-of-type(3n){
+	padding-right: 0;
+	width: 240px;
+}
+
+.sort-list-ul> li div{
+	border: 1px solid #0F51B2;
+	height: 100%;
+}
+.sort-list-ul> li div h4{
+	height: 30px;
+	border-bottom: 1px solid #0F51B2;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #0F51B2;
+}
+.sort-list-ul> li div p{
+	padding: 10px;
+	line-height: 30px;
+}
+.sort-list-right{
+	float: right;
+	width: 350px;
+}
+.sort-list-right .hot{
+	border: 1px solid #CCCCCC;
+	height: 560px;
+}
+.sort-list-right .hot >.title{
+	border-top: 1px solid #0F51B2;
+	line-height: 40px;
+	height: 40px;
+}
+.sort-list-right .hot >.title h3{
+	width: 120px;
+	float: left;
+	height: 40px;
+	font-size: 18px;
+	color: #0F51B2;
+	text-align: center;
+}
+.sort-list-right .hot >.title p{
+	padding-right: 15px;
+	float: right;
+	width: 225px;
+	height: 40px;
+	background: url(../images/hot/sort-top-bg.png) repeat;
+}
+.sort-list-right .hot> .content{
+	padding: 20px;
+}
+
+.sort-list-right .hot> .content h4{
+	font-size: 14px;
+}
+.sort-list-right .content >p{
+	height: 110px;	
+	margin-top: 10px;
+}
+.sort-list-right .content >p img{
+	width: 160px;
+	height: 100px;
+	float: left;
+}
+.sort-list-right .content >p span{
+	float: right;
+	width: 130px;
+	height: 100px;
+	color: #999;
+	overflow: hidden;
+}
+.sort-list-right .new-list{
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 5px;
+}
+.sort-list-right .new-list li{
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.sort-list-right .new-list li a{
+	font-size: 14px;
+	font-weight: bold;
+}
+.sort-list-right .new-list li a span{
+	color: #0F51B2;
+	margin-right: 5px;
+}
+.sort-list-right .img-list{
+	margin-top: 15px;
+}
+.sort-list-right .img-list li{
+	width: 50%;
+	padding: 0 5px;
+	float: left;
+	margin-bottom: 15px;
+}
+.sort-list-right .img-list li img{
+	width: 100%;
+	height: 90px;
+}
+.sort-list-right .img-list li p{
+	height: 20px;
+	line-height: 20px;
+}

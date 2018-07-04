@@ -90,6 +90,9 @@
 	background-color: #fff;
 	height: 100%;
 }
+.nav-left ul{
+	height: 100%;
+}
 .nav-left li:hover .slide-nav{
 	display: block;
 }
@@ -103,6 +106,7 @@
 	z-index: 2;
 	cursor: initial;
 	display: none;
+	overflow-y: auto;
 }
 .nav-left .slide-nav-list{
 	float: left;
@@ -113,7 +117,7 @@
 .nav-left .slide-nav-content{
 	float: left;
 	height: 100%;
-	width: 250px;
+	width: 235px;
 }
 .slide-nav-list>div{
 	position: relative;
@@ -204,6 +208,14 @@
 .nav-left li:hover>span{
 	color: #333;
 	font-weight: bold;
+}
+.nav-left li:first-child:hover{
+	background-color: #ff7f00;
+}
+.nav-left li:first-child:hover>span{
+	color: #fff;
+	font-weight: normal;
+	cursor: initial;
 }
 .nav-left li.active{
 	background-color: #fff;
@@ -769,7 +781,7 @@
 	font-weight: bold;
 }
 
-.information li a.mark{
+.information li a:hover{
 	text-decoration: underline;
 	color: #0F51B2;
 }
@@ -843,7 +855,7 @@
 	color: #0F51B2;
 	margin-right: 5px;
 }
-.produce-left li span.mark{
+.produce-left li:hover span{
 	text-decoration: underline;
 	color: #0F51B2;
 }
@@ -882,18 +894,4 @@
 	display: block;
 	width: 100%;
 	height: 100%;
-}
-.footer{
-	padding-top: 50px;
-	height: 200px;
-	background-color: #fff;
-	margin-top: 15px;
-	text-align: center;
-}
-.footer p{
-	margin-top: 5px;
-	color: #999;
-}
-.footer a{
-	color: #999;
 }

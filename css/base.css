@@ -89,3 +89,87 @@ html {
 	width: 1200px;
 	margin: 0 auto;
 }
+.top{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ccc;
+}
+.top ul li {
+	float: left;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.main-color{
+	color: #0f51b2;
+}
+
+.main-bgcolor{
+	background: #0f51b2;
+}
+.top .register{
+	color: #999 ;
+}
+.top .collect{
+	margin-left: 20px;
+}
+.container .header {
+	height: 110px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.container .header .header-search{
+	width: 510px;
+	margin: 0 auto;
+}
+.container .header-search p:first-child{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	height: 30px;
+}
+.container .header-search p:last-child{
+	height: 16px;
+	overflow: hidden;
+}
+.container .header-search input{
+	width: 460px;
+	height: 30px;
+	border: 2px solid #0F51B2;
+	padding: 0 10px;
+	float: left;
+}
+.container .header-search i{
+	width: 50px;
+	height: 30px;
+	background-color: #0F51B2;
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	float: left;
+}
+.container .header-search a{
+	display: inline-block;
+	padding: 0 15px;
+	border-right: 1px solid #a9a9a9;
+}
+.container .header-search a:last-child{
+	border: none;
+}
+.footer{
+	padding-top: 50px;
+	height: 200px;
+	background-color: #fff;
+	margin-top: 15px;
+	text-align: center;
+}
+.footer p{
+	margin-top: 5px;
+	color: #999;
+}
+.footer a{
+	color: #999;
+}
