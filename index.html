@@ -51,7 +51,7 @@
 							<i class="iconfont icon-icon-shuanglieliebiao"></i>
 							<span>全部资讯分类</span>
 						</li>
-						<li>
+						<li onmouseover="mouseOver(1)">
 							<i class="iconfont icon-setting"></i>
 							<span>机械及行业设备</span>
 							<div class="slide-nav">
@@ -251,7 +251,7 @@
 							</div>
 						</li>
 						
-						<li>
+						<li onmouseover="mouseOver(2)">
 							<i class="iconfont icon-jianzhu"></i>
 							<span>建筑 / 建材</span>
 							<div class="slide-nav">
@@ -2947,6 +2947,9 @@
 		    slidesPerView: 4,
 		     spaceBetween: 0,
 		  })
+		  function mouseOver(val){
+		  	alert(val)
+		  }
 		</script>
 	</body>
 </html>

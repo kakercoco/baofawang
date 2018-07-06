@@ -85,6 +85,9 @@ html {
 .hide {
     display: none
 }
+.fb{
+	font-weight: bold;
+}
 .container{
 	width: 1200px;
 	margin: 0 auto;
