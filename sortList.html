@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 		<link rel="stylesheet" type="text/css" href="css/sort.css"/>
 		<script src="js/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="top">
@@ -392,7 +393,7 @@
 				</div>
 				<div class="content">
 					<div class="new-produce-left">
-						<ul>
+						<ul class="ul-1">
 							<li>
 								<a href="">
 									<img src="images/hot/information.jpg"/>
@@ -433,11 +434,11 @@
 					</div>
 					<div class="new-produce-right">
 						<ul>
-							<li>五金配件</li>
-							<li class="active">五金配件</li>
-							<li>五金配件</li>
-							<li>五金配件</li>
-							<li>五金配件</li>
+							<li onclick="changeTab(1,this)">五金配件</li>
+							<li class="active" onclick="changeTab(2,this)">五金配件</li>
+							<li onclick="changeTab(3,this)">五金配件</li>
+							<li onclick="changeTab(4,this)">五金配件</li>
+							<li onclick="changeTab(5,this)">五金配件</li>
 						</ul>
 					</div>
 				</div>
@@ -471,6 +472,13 @@
 		         clickable: true,
 		      },
 		  })
+			function changeTab(val,e){
+				$(e).parent().children().removeClass('active')
+				$(e).addClass('active')
+				$('.new-produce-left ul').hide()
+				var ul = '.ul-'+val
+				$('.new-produce-left').children(ul).show()
+			}
 		</script>
 	</body>
 </html>
